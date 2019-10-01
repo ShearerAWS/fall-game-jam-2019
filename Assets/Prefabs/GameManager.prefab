@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2170315899899639723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2170315899899639717}
+  - component: {fileID: 2170315899899639722}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2170315899899639717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2170315899899639723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.273444, y: -12.914871, z: -125.07342}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2170315899899639722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2170315899899639723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309bef0619d864e408c4f07dc848ee17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blueGoalMap: {fileID: 0}
+  redGoalMap: {fileID: 0}
+  blueGoal: 0
+  redGoal: 0
+  active: {r: 1, g: 1, b: 1, a: 1}
+  inactive: {r: 0.7411765, g: 0.3019608, b: 0.647329, a: 1}
+  levels:
+  - Level2
+  - Playground
+  levelIndex: 0
+  realStart: 0
+  won: 0
+  goalEnterSFX: {fileID: 8300000, guid: 0db5fb1678c00164fa5ede6ec89ba1dc, type: 3}
+  goalExitSFX: {fileID: 8300000, guid: 9f35ec5a8cfcccb438fbc9a46bd06529, type: 3}
+  win1SFX: {fileID: 8300000, guid: ed10697d1d250364bb1c60d542de9705, type: 3}
+  win2SFX: {fileID: 8300000, guid: 8be8a6f099938f445b3e0413d0410929, type: 3}
