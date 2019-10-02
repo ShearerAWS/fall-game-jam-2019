@@ -1,5 +1,7 @@
 # Dino Cable Repair
  
+[Download and play from itch.io](https://alphaaxle.itch.io/dino-cable-repair)
+ 
 Unity project for the OSU Game Creation Club's 2019 Fall Game Jam, created in 48 hours
 
 The theme for the game jam was "Connection". I made a two player co-op platformer where the players are connected by a cable, and must learn to cooperate in order to navigate each level. 
