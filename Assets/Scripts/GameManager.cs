@@ -51,7 +51,10 @@ public class GameManager : MonoBehaviour {
                 
                 realStart = false;
             }
-        }        
+        }   
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
     }
 
     public void OnSceneLoad(Scene scene, LoadSceneMode mode) {
